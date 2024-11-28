@@ -1,4 +1,14 @@
+# Steps to Examine Data Quality
 
+* Load the Data
+* Check for Missing Values
+* Inspect Data Types
+* Check for Duplicates
+* Validate Unique Identifiers
+* Identify Outliers
+* Ensure Consistency Across Datasets
+* Analyze Categorical Values
+* Review Date Ranges and Formats
 
 ## 1. Patients Dataset
 
