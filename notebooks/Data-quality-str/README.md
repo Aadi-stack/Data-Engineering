@@ -4,31 +4,31 @@
 
 ### Issues:
 
-* Missing values in fields like DEATHDATE, DRIVERS, and PASSPORT.
+* Missing values in fields like `DEATHDATE, DRIVERS, PASSPORT, PREFIX, SUFFIX, MAIDEN, MARITAL, GENDER and FIPS`.
 
-* Inconsistent formatting in columns like BIRTHPLACE and ADDRESS.
+* Inconsistent formatting in columns like `BIRTHPLACE and ADDRESS`.
 
-* Possible invalid or unrealistic INCOME or HEALTHCARE_EXPENSES.
+* Possible invalid or unrealistic `INCOME or HEALTHCARE_EXPENSES`.
 
-* Duplicate rows (if any).
+* Duplicate '`0`.
 
 ## 2. Encounters Dataset
 
 ### Issues:
 
-* Missing values in columns such as REASONCODE and REASON DESCRIPTION.
+* Missing values in columns such as` REASONCODE and REASON DESCRIPTION`.
 
-* Date inconsistencies in START and STOP.
+* Date inconsistencies in `START and STOP`.
 
 * Potential duplicate entries for the same encounter.
 
-* PAYER_COVERAGE and BASE_ENCOUNTER_COST might contain outliers.
+* `PAYER_COVERAGE and BASE_ENCOUNTER_COST` might contain outliers.
 
 ## 3. Medications Dataset
 
 ### Issues:
 
-* Missing values in REASONCODE, REASON DESCRIPTION.
+* Missing values in `REASONCODE, REASON DESCRIPTION`.
 
 * Unclear BASE_COST values (e.g., zeros or negative values).
 
@@ -40,9 +40,9 @@
 
 * Missing values in SYMPTOMS or AGE_END.
 
-* Inconsistencies in PATHOLOGY and SYMPTOMS naming conventions.
+* Inconsistencies in `PATHOLOGY and SYMPTOMS` naming conventions.
 
-* Outliers in NUM_SYMPTOMS (e.g., too high to be realistic).
+* `Outliers in NUM_SYMPTOMS` (e.g., too high to be realistic).
 
 ## 5. Conditions Dataset
 
