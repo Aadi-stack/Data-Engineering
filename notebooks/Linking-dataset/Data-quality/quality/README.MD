@@ -1,6 +1,6 @@
 
 
-1. Patients Dataset
+## 1. Patients Dataset
 
 ### Issues:
 
@@ -12,7 +12,7 @@
 
 * Duplicate rows (if any).
 
-2. Encounters Dataset
+## 2. Encounters Dataset
 
 ### Issues:
 
@@ -24,7 +24,7 @@
 
 * PAYER_COVERAGE and BASE_ENCOUNTER_COST might contain outliers.
 
-3. Medications Dataset
+## 3. Medications Dataset
 
 ### Issues:
 
@@ -34,7 +34,7 @@
 
 * Duplicate records for the same patient and encounter.
 
-4. Symptoms Dataset
+## 4. Symptoms Dataset
 
 ### Issues:
 
@@ -44,7 +44,7 @@
 
 * Outliers in NUM_SYMPTOMS (e.g., too high to be realistic).
 
-5. Conditions Dataset
+## 5. Conditions Dataset
 
 ### Issues:
 
